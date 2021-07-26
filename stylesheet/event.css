@@ -1,0 +1,61 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  background-color: #f5810c;
+}
+
+/*back bottom*/
+img.nev_left {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  z-index: 0;
+  width: 10px;
+}
+div.back {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  z-index: 0;
+  color: #e02c1f;
+  font-size: 17px;
+}
+div.ba {
+  position: absolute;
+  top: 60px;
+  left: 38px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 130px;
+  height: 35px;
+  background-color: white;
+  z-index: 0;
+}
+
+/*body*/
+div.body {
+  position: absolute;
+  left: 38px;
+  top: 120px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 95%;
+  height: 600px;
+  background: #ede7e6;
+}
+p.tt {
+  margin-left: 100px;
+}
+h4.tt {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+div.fill {
+  position: absolute;
+  top: 720px;
+  height: 30px;
+  width: 10px;
+}

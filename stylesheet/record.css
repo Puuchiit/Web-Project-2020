@@ -1,0 +1,221 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  background-color: #f5810c;
+}
+h2 {
+  margin-left: 100px;
+}
+div.top {
+  position: absolute;
+  top: 10px;
+  width: 1500px;
+  height: 20px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+}
+div.bottom {
+  position: absolute;
+  top: 890px;
+  width: 1500px;
+  height: 20px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+}
+#back {
+  position: static;
+  border: 0px;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  background-color: #3b5e96;
+  color: white;
+  text-align: center;
+}
+#spam_1 {
+  position: static;
+  border: 0px;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  background-color: #db7107;
+  color: white;
+  text-align: center;
+}
+div.spam_2 {
+  position: relative;
+  border: 0px;
+  padding: 3px;
+  margin: 0px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  color: white;
+  text-align: center;
+}
+div.event {
+  position: absolute;
+  width: 500px;
+  background-color: white;
+  z-index: 3;
+  top: 112px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  left: 50px;
+}
+div.school {
+  position: absolute;
+  width: 500px;
+  background-color: white;
+  z-index: 3;
+  top: 505px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  left: 50px;
+}
+
+div.dinner_20200824 {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  padding: 20px;
+  width: 300px;
+  height: 225px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+img.dinner_1 {
+  position: absolute;
+  top: 205px;
+  left: 50px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 340px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+
+div.newyear_2020 {
+  position: absolute;
+  top: 200px;
+  left: 410px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  padding: 20px;
+  width: 300px;
+  height: 225px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+img.newyear_1 {
+  position: absolute;
+  top: 270px;
+  left: 410px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 340px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+
+div.football_20191019 {
+  position: absolute;
+  top: 200px;
+  left: 770px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  padding: 20px;
+  width: 300px;
+  height: 225px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+img.football_1 {
+  position: absolute;
+  top: 230px;
+  left: 770px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 340px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+
+div.autumn_20191209 {
+  position: absolute;
+  top: 200px;
+  left: 1130px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  padding: 20px;
+  width: 300px;
+  height: 225px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+img.autumn_1 {
+  position: absolute;
+  top: 290px;
+  left: 1130px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 340px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+
+div.school_2020 {
+  position: absolute;
+  top: 590px;
+  left: 50px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  padding: 20px;
+  width: 300px;
+  height: 225px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+img.school_1 {
+  position: absolute;
+  top: 595px;
+  left: 50px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 340px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+
+/*back function*/
+img.nev_left {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  z-index: 0;
+  width: 10px;
+}
+div.back {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  z-index: 0;
+  color: #e02c1f;
+  font-size: 17px;
+}
+div.ba {
+  position: absolute;
+  top: 60px;
+  left: 38px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 130px;
+  height: 35px;
+  background-color: white;
+  z-index: 0;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: #f5810c;
+  font-family: 'Raleway', sans-serif;
+}
+.ctitle {
+  position: static;
+  border: 0px;
+  padding: 40px;
+  margin: 30px;
+}
+.cinfo {
+  position: static;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  column-count: 2;
+}
+.fill1 {
+  padding: 20px;
+}
+.title {
+  background-color: lightgrey;
+  border: 0px;
+  padding: 80px;
+  margin: -20px;
+  position: sticky;
+  left: 0%;
+  top: 0%;
+  text-align: left;
+  column-count: 2;
+  column-gap: 0px;
+}
+#back {
+  position: sticky;
+  border: 0px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0px;
+  background-color: #25416e;
+  color: white;
+  width: 6%;
+  height: 2%;
+}
+#email {
+  position: sticky;
+  z-index: 2;
+  background-color: lightgrey;
+  border: 0px;
+  padding: 60px;
+  margin: -20px;
+  column-count: 2;
+}
