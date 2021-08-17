@@ -6,79 +6,58 @@ body {
 h2 {
   margin-left: 100px;
 }
+div.background {
+  position: absolute;
+  left: 38px;
+  top: 105px;
+  height: 1110px;
+  width: 1445px;
+  border-radius: 8px;
+  border: 6px solid #f5d39d;
+  background: white;
+}
 div.top {
   position: absolute;
-  top: 10px;
+  top: 15px;
   width: 1500px;
-  height: 20px;
+  height: 60px;
   border-radius: 8px;
   border: 0px solid #00AA00;
 }
 div.bottom {
   position: absolute;
-  top: 890px;
+  top: 1280px;
   width: 1500px;
   height: 20px;
   border-radius: 8px;
   border: 0px solid #00AA00;
-}
-#back {
-  position: static;
-  border: 0px;
-  padding: 10px;
-  margin: 0px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  background-color: #3b5e96;
-  color: white;
-  text-align: center;
-}
-#spam_1 {
-  position: static;
-  border: 0px;
-  padding: 10px;
-  margin: 0px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  background-color: #db7107;
-  color: white;
-  text-align: center;
-}
-div.spam_2 {
-  position: relative;
-  border: 0px;
-  padding: 3px;
-  margin: 0px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  color: white;
-  text-align: center;
+  margin-bottom: 60px;
 }
 div.event {
   position: absolute;
-  width: 500px;
-  background-color: white;
+  width: 1412px;
+  background-color: #f5d39d;
   z-index: 3;
-  top: 112px;
+  top: 120px;
   border-radius: 8px;
-  border: 0px solid #00AA00;
+  border: 4px solid #ebd9c7;
   left: 50px;
 }
 div.school {
   position: absolute;
-  width: 500px;
-  background-color: white;
+  width: 1412px;
+  background-color: #f5d39d;
   z-index: 3;
-  top: 505px;
+  top: 810px;
   border-radius: 8px;
-  border: 0px solid #00AA00;
+  border: 4px solid #ebd9c7;
   left: 50px;
 }
 
 div.dinner_20200824 {
   position: absolute;
-  top: 200px;
-  left: 50px;
+  top: 220px;
+  left: 130px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   padding: 20px;
@@ -89,19 +68,20 @@ div.dinner_20200824 {
 }
 img.dinner_1 {
   position: absolute;
-  top: 205px;
-  left: 50px;
+  top: 220px;
+  left: 130px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   width: 340px;
+  height: 265px;
   background-color: #e8e8e8;
   z-index: 0;
 }
 
 div.newyear_2020 {
   position: absolute;
-  top: 200px;
-  left: 410px;
+  top: 220px;
+  left: 590px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   padding: 20px;
@@ -112,42 +92,20 @@ div.newyear_2020 {
 }
 img.newyear_1 {
   position: absolute;
-  top: 270px;
-  left: 410px;
+  top: 220px;
+  left: 590px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   width: 340px;
-  background-color: #e8e8e8;
-  z-index: 0;
-}
-
-div.football_20191019 {
-  position: absolute;
-  top: 200px;
-  left: 770px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  padding: 20px;
-  width: 300px;
-  height: 225px;
-  background-color: #e8e8e8;
-  z-index: 0;
-}
-img.football_1 {
-  position: absolute;
-  top: 230px;
-  left: 770px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  width: 340px;
+  height: 265px;
   background-color: #e8e8e8;
   z-index: 0;
 }
 
 div.autumn_20191209 {
   position: absolute;
-  top: 200px;
-  left: 1130px;
+  top: 220px;
+  left: 1050px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   padding: 20px;
@@ -158,8 +116,8 @@ div.autumn_20191209 {
 }
 img.autumn_1 {
   position: absolute;
-  top: 290px;
-  left: 1130px;
+  top: 330px;
+  left: 1050px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   width: 340px;
@@ -167,10 +125,32 @@ img.autumn_1 {
   z-index: 0;
 }
 
+div.football_20191019 {
+  position: absolute;
+  top: 510px;
+  left: 130px;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  height: 225px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+img.football_1 {
+  position: absolute;
+  top: 510px;
+  left: 130px;
+  border-radius: 8px;
+  width: 340px;
+  height: 265px;
+  background-color: #e8e8e8;
+  z-index: 0;
+}
+
 div.school_2020 {
   position: absolute;
-  top: 590px;
-  left: 50px;
+  top: 910px;
+  left: 130px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   padding: 20px;
@@ -181,41 +161,50 @@ div.school_2020 {
 }
 img.school_1 {
   position: absolute;
-  top: 595px;
-  left: 50px;
+  top: 910px;
+  left: 130px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   width: 340px;
+  height: 265px;
   background-color: #e8e8e8;
   z-index: 0;
 }
 
+
+img.logo {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+  z-index: 0;
+  height: 40px;
+}
 /*back function*/
 img.nev_left {
   position: absolute;
-  top: 70px;
-  left: 50px;
-  z-index: 0;
+  top: 60px;
+  left: 1362px;
+  z-index: 2;
   width: 10px;
 }
 div.back {
   position: absolute;
-  top: 50px;
-  left: 70px;
+  top: 40px;
+  left: 1381px;
   border-radius: 8px;
   border: 0px solid #00AA00;
-  z-index: 0;
+  z-index: 2;
   color: #e02c1f;
   font-size: 17px;
 }
 div.ba {
   position: absolute;
-  top: 60px;
-  left: 38px;
+  top: 50px;
+  left: 1353px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   width: 130px;
   height: 35px;
   background-color: white;
-  z-index: 0;
+  z-index: 1;
 }

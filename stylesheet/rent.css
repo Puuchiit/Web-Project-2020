@@ -1,17 +1,27 @@
 body {
   background-color: #f5810c;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
 }
+img.logo {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  z-index: 0;
+  height: 40px;
+}
+
 img.nev_left {
   position: absolute;
-  top: 70px;
-  left: 50px;
+  top: 47px;
+  left: 1346px;
   z-index: 0;
   width: 10px;
 }
 div.back {
   position: absolute;
-  top: 50px;
-  left: 70px;
+  top: 27px;
+  left: 1364px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   z-index: 0;
@@ -20,36 +30,85 @@ div.back {
 }
 div.ba {
   position: absolute;
-  top: 60px;
-  left: 40px;
+  top: 37px;
+  left: 1336px;
   border-radius: 8px;
   border: 0px solid #00AA00;
   width: 130px;
   height: 35px;
-  background-color: white;
+  background-color: #e8e8e8;
   z-index: 0;
 }
-
-
-div.a1 {
-  position: absolute;
-  left: 200px;
-  top: 150px;
-  border-radius: 8px;
+div.fill {
+  position: relative;
+  left: 40px;
+  top: 90px;
+  width: 1400px;
+  border-radius: 6px;
   border: 0px;
   padding: 10px;
-  width: 45%;
-  background-color: #d8d8d8;
-  text-align: center;
+}
+div.a1 {
+  position: relative;
+  left: 40px;
+  top: 75px;
+  width: 1400px;
+  border-radius: 6px;
+  border: 0px;
+  padding: 10px;
+  background-color: #ebebeb;
+}
+h1.rr {
+  vertical-align: baseline;
+  margin-left: 60px;
 }
 div.a2 {
-  position: absolute;
-  right: 4%;
-  top: 150px;
-  border-radius: 8px;
+  position: relative;
+  left: 40px;
+  top: 85px;
+  width: 1400px;
+  border-radius: 6px;
   border: 0px;
   padding: 10px;
-  width: 45%;
-  background-color: #a3a3a3;
+  background-color: #faf6f5;
+}
+div.a3 {
+  position: relative;
+  left: 40px;
+  top: 95px;
+  width: 1400px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #e6e6e6;
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+div.b1 {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  margin-left: 25px;
+  float: left;
+}
+div.b2 {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  margin-left: 60px;
+  float: left;
+}
+h3 {
   text-align: center;
+  margin-top: 50%;
 }

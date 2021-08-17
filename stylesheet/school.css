@@ -1,52 +1,116 @@
 body {
-  background-color: #f5810c;
   font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  background-color: #f5810c;
 }
-.ctitle {
-  position: static;
-  border: 0px;
-  padding: 40px;
-  margin: 30px;
+img.logo {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+  z-index: 0;
+  height: 40px;
 }
-.cinfo {
-  position: static;
-  border: 0px;
-  padding: 0px;
-  margin: 0px;
-  column-count: 2;
+img.nev_left {
+  position: absolute;
+  top: 52px;
+  left: 1358px;
+  z-index: 0;
+  width: 10px;
 }
-.fill1 {
-  padding: 20px;
+div.back {
+  position: absolute;
+  top: 33px;
+  left: 1377px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  z-index: 0;
+  color: #e02c1f;
+  font-size: 17px;
 }
-.title {
-  background-color: lightgrey;
-  border: 0px;
-  padding: 80px;
-  margin: -20px;
-  position: sticky;
-  left: 0%;
-  top: 0%;
-  text-align: left;
-  column-count: 2;
-  column-gap: 0px;
+div.ba {
+  position: absolute;
+  top: 42px;
+  left: 1347px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 130px;
+  height: 35px;
+  background-color: white;
+  z-index: 0;
 }
-#back {
-  position: sticky;
-  border: 0px;
-  border-radius: 5px;
-  padding: 8px;
-  margin: 0px;
-  background-color: #25416e;
-  color: white;
-  width: 6%;
-  height: 2%;
+
+div.title {
+  position: absolute;
+  left: 38px;
+  top: 90px;
+  border-radius: 8px;
+  width: 1440px;
+  height: 140px;
+  background: #f5f1f0;
 }
-#email {
-  position: sticky;
-  z-index: 2;
-  background-color: lightgrey;
-  border: 0px;
-  padding: 60px;
-  margin: -20px;
-  column-count: 2;
+div.cntitle {
+  position: relative;
+  margin-left: 100px;
+  float: left;
+  margin-top: 10px;
+}
+div.entitle {
+  position: relative;
+  margin-left: 340px;
+  float: left;
+  margin-top: 10px;
+  font-size: 105%;
+}
+
+div.body {
+  position: absolute;
+  left: 38px;
+  top: 245px;
+  border-radius: 8px;
+  width: 1440px;
+  height: 480px;
+  background: #f5f1f0;
+}
+div.cnbody {
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 120px;
+  width: 520px;
+}
+div.enbody {
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 520px;
+}
+
+div.email {
+  position: absolute;
+  left: 38px;
+  top: 740px;
+  border-radius: 8px;
+  width: 1440px;
+  height: 110px;
+  background: #f5f1f0;
+}
+div.email_text {
+  position: relative;
+  float: left;
+  margin-left: 110px;
+  margin-top: 35px;
+}
+h2.email {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 160px;
+  float: left;
+}
+
+div.fill {
+  position: absolute;
+  top: 1000px;
+  height: 20px;
+  width: 1500px;
 }
