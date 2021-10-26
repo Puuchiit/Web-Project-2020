@@ -5,10 +5,9 @@ body {
 }
 img.logo {
   position: absolute;
-  height: 70px;
-  width: 280px;
-  margin-top: 0px;
-  margin-left: 80px;
+  height: 80px;
+  margin-top: -10px;
+  margin-left: 75px;
 }
 div.searchbarbg {
   position: absolute;
@@ -114,61 +113,6 @@ div.rentbg {
   padding: 10px;
   width: 190px;
   background-color: #c7c7c7;
-  text-align: center;
-  z-index: 1;
-}
-div.incoming1 {
-  position: absolute;
-  left: 430px;
-  top: 310px;
-  padding: 10px;
-  width: 190px;
-  background-color: #c7c7c7;
-  color: #595959;
-  text-align: center;
-  z-index: 1;
-}
-div.incoming2 {
-  position: absolute;
-  left: 430px;
-  top: 380px;
-  padding: 10px;
-  width: 190px;
-  background-color: #c7c7c7;
-  color: #595959;
-  text-align: center;
-  z-index: 1;
-}
-div.incoming3 {
-  position: absolute;
-  left: 430px;
-  top: 450px;
-  padding: 10px;
-  width: 190px;
-  background-color: #c7c7c7;
-  color: #595959;
-  text-align: center;
-  z-index: 1;
-}
-div.incoming4 {
-  position: absolute;
-  left: 430px;
-  top: 520px;
-  padding: 10px;
-  width: 190px;
-  background-color: #c7c7c7;
-  color: #595959;
-  text-align: center;
-  z-index: 1;
-}
-div.incoming5 {
-  position: absolute;
-  left: 430px;
-  top: 590px;
-  padding: 10px;
-  width: 190px;
-  background-color: #c7c7c7;
-  color: #595959;
   text-align: center;
   z-index: 1;
 }

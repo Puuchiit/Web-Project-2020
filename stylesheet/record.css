@@ -3,6 +3,43 @@ body {
   font-size: 100%;
   background-color: #f5810c;
 }
+img.logo {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+  z-index: 0;
+  height: 55px;
+}
+
+img.nev_left {
+  position: absolute;
+  top: 60px;
+  left: 1362px;
+  z-index: 2;
+  width: 10px;
+}
+div.back {
+  position: absolute;
+  top: 40px;
+  left: 1381px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  z-index: 2;
+  color: #e02c1f;
+  font-size: 17px;
+}
+div.ba {
+  position: absolute;
+  top: 50px;
+  left: 1353px;
+  border-radius: 8px;
+  border: 0px solid #00AA00;
+  width: 130px;
+  height: 35px;
+  background-color: white;
+  z-index: 1;
+}
+
 h2 {
   margin-left: 100px;
 }
@@ -169,42 +206,4 @@ img.school_1 {
   height: 265px;
   background-color: #e8e8e8;
   z-index: 0;
-}
-
-
-img.logo {
-  position: absolute;
-  top: 35px;
-  left: 50px;
-  z-index: 0;
-  height: 40px;
-}
-/*back function*/
-img.nev_left {
-  position: absolute;
-  top: 60px;
-  left: 1362px;
-  z-index: 2;
-  width: 10px;
-}
-div.back {
-  position: absolute;
-  top: 40px;
-  left: 1381px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  z-index: 2;
-  color: #e02c1f;
-  font-size: 17px;
-}
-div.ba {
-  position: absolute;
-  top: 50px;
-  left: 1353px;
-  border-radius: 8px;
-  border: 0px solid #00AA00;
-  width: 130px;
-  height: 35px;
-  background-color: white;
-  z-index: 1;
 }

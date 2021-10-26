@@ -5,21 +5,21 @@ body {
 }
 img.logo {
   position: absolute;
-  top: 25px;
+  top: 15px;
   left: 50px;
   z-index: 0;
-  height: 40px;
+  height: 55px;
 }
 img.nev_left {
   position: absolute;
-  top: 40px;
+  top: 47px;
   left: 1388px;
   z-index: 0;
   width: 10px;
 }
 div.back {
   position: absolute;
-  top: 22px;
+  top: 28px;
   left: 1410px;
   border-radius: 8px;
   border: 0px solid #00AA00;
@@ -28,7 +28,7 @@ div.back {
 }
 div.ba1 {
   position: absolute;
-  top: 30px;
+  top: 37px;
   left: 1378px;
   border-radius: 8px;
   border: 0px solid #00AA00;
@@ -39,7 +39,7 @@ div.ba1 {
 }
 div.ba2 {
   position: absolute;
-  top: 30px;
+  top: 37px;
   left: 1230px;
   border-radius: 8px;
   border: 0px solid #00AA00;
